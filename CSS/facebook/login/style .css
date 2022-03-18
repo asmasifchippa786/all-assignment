@@ -1,0 +1,117 @@
+body{
+   font-family:Arial, Helvetica, sans-serif ;
+}
+img{
+    padding-left: 200px;
+    padding-top: 300px;
+}
+.prar{
+    padding-left: 200px;
+    font-size: 45px;
+}
+div{
+    display: block;
+}
+.loi{
+    text-align: center;
+}
+.oilp{
+    height: 456px;
+    width: 369;
+}
+.poil{
+    padding-bottom: 24px;
+    padding-top: 10px;
+    text-align: center;
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    box-shadow:
+    0 2px 4px rgb(0 0 0 / 10%) , 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+}
+.ulio{
+    font-size: 17px;
+    width: 364px;
+    display: inline;
+    margin: auto;
+    padding: 6px 0;
+}
+.erfg{
+    border-radius: 6px ;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+}
+.mnm{
+    padding-top: 6px;
+}
+.dfr{
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+    box-sizing: content-box;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    text-shadow: none;
+    vertical-align: middle;
+    color: #dadde9;
+}
+.uiy{
+    margin-top: 16px;
+}
+.jhg{
+    align-items: center;
+    border-bottom: 1px solid #dadde9;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+.nhy{
+    padding-top: 6px;
+}
+.tyl{
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: #42b72a;
+    color: #dadde9;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+    box-sizing: content-box;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    text-shadow: none;
+    vertical-align: middle;
+}
+p>a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+}
