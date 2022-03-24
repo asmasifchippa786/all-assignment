@@ -1,42 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Page</title>
     <style>
-        .ioj{
-            padding: 15px;
-            width: 600px;
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
         }
-        a{
-            text-decoration: none;
+        .head{
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
-        button{
-            background-color: rgb(55, 116, 248);
-            color: aliceblue;
-            border: none;
-            -webkit-font-smoothing: antialiased;
-            font-size: 20px;
+        .dfe{
+            height: 600px;
+            width: 60%;
+            border-radius: 7px;
+            border:1px solid rgb(202, 202, 202);
+            padding: 30px;
+            font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+
+        }
+        .hadding{
+            font-size: 27px;
+            margin-left: 17px;
+            color: #565656;
+        }
+        .logo img{
+            margin: 20px;
+        }
+        .left-side{
+            display: flex;
+            align-items: flex-start;
+            width: 440px;
+            padding: 10px;
+        }
+        .left-side input{
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid rgb(197, 197, 197);
+            margin: 5px;
+        }
+
+        .names{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-bottom: 16px;
+        }
+        .email{
+            width: 389px;
+        }
+        .email-info{
+            font-size: 11px;
+            padding: 5px;
+            color: #939393;
+        }
+        .use-old-email{
             padding: 15px;
-            width: 100px;
+            color: #1a73e8;
+            font-weight: 700;
+        }
+        .show_pass{
+            transform: scale(1.4);
+        }
+        label{
+            color: #939393;
+            font-size: 13px;
+        }
+        .submit{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        .submit p{
+            font-size: 15px;
+            font-weight: 700;
+            color: #1a73e8;
+        }
+        .submit button{
+            background-color: #1a73e8;
+            border-radius: 5px;
+            border:none;
+            padding: 10px;
+            color: #fff;
+            font-weight: 750;
+        }
+        .submit button:hover{
+            background-color: #4480cf;
             cursor: pointer;
+        }
+        .right-side{
+            text-align: center;
+        }
+        .betwen{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
     </style>
 </head>
 <body>
-    <fieldset>
-        <form action="../sign in 2/index.html">
-        <center><img width="100" height="70" src="./image/pngwing.com (1).png" alt="">
-        <h2>Sign in</h2>
-        <p>Use Your Google Account</p></center>
-        <input class="ioj" type="text" placeholder="Email or phone"><br/>
-        <a href="">Forget email?</a>
-        <br />
-        <br />
-        <p>Not your computer? Use Guest mode to sign in privately.</p>
-        <a href="">Learn more</a><br /><br /><br/>
-        <a href="">Create account</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-        <button type="submit">Next</button>
-        </form>
-    </fieldset>
+    <div class="head">
+        <div class="dfe">
+            <div class="logo">
+                <img width="100" height="50" src="./image/pngwing.com (1).png" alt="">
+            </div>
+            <div class="hadding">
+                <p>Create your Google Account</p>
+            </div>
+            <div class="betwen">
+                <div class="left-side">
+                    <form action="../sign in 2/index.html">
+                        <div class="names">
+                            <input type="text" name="first_name" class="first_name" placeholder="First name">
+                            <input type="text" name="first_name" class="first_name" placeholder="Last name">
+                        </div>
+                        <input type="text" name="first_name" id="email" placeholder="Email">
+                        <p class="email-info">You can use letters, numbers & perods</p>
+                        <p class="use-old-email">Use my current email address instead</p>
+                        <div class="for-pass">
+                            <input type="text" name="first_name" id="first_name" placeholder="Password">
+                            <input type="text" name="first_name" id="first_name" placeholder="Confirm">
+                            <p id="email-info">Use 8 or more characters with a mix of letters, numbers & symbols</p>
+                        </div>
+                        <label for="show_pass"><input type="checkbox" name="" id="show_pass">Show Password</label>
+                        <div class="submit">
+                            <a href="./indx.html">Sign in instead</a>
+                            <button type="button">Sign Up</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="right-side">
+                    <img src="https://ssl.gstatic.com/accounts/signup/glif/account.svg" alt="">
+                    <p>One account. All of Google working for you.</p>
+                </div>
+            </div>
+        </div>
+    </div>    
 </body>
 </html>
