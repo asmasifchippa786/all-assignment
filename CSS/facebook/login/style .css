@@ -9,15 +9,17 @@ img{
     padding-left: 200px;
     font-size: 45px;
 }
-div{
-    display: block;
-}
 .loi{
     text-align: center;
+    padding-left: 400px; 
+    display: inline-block;
+    padding-top: 0px; 
 }
+
 .oilp{
     height: 456px;
     width: 369;
+    display: inline-block; 
 }
 .poil{
     padding-bottom: 24px;
@@ -32,13 +34,14 @@ div{
     margin: 40px 0 0;
     padding: 20px 0 28px;
     width: 396px;
+    display: inline-block; 
 }
 .ulio{
     font-size: 17px;
     width: 364px;
     display: inline;
     margin: auto;
-    padding: 6px 0;
+    padding: 6px 0;   
 }
 .erfg{
     border-radius: 6px ;
