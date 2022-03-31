@@ -47,7 +47,7 @@ body{
     font-size: 1.1em;
 }
 .links ul li:hover{
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgb(255, 0, 0);
     border-radius: 4px;
     text-shadow: 0px 2px 0.5px grey;
 }
